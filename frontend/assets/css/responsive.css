@@ -1,0 +1,104 @@
+@media (max-width: 991px) {
+  .hero-section {
+    padding-top: 100px;
+  }
+
+  .navbar-collapse {
+    padding-top: 1rem;
+  }
+
+  .navbar-nav {
+    gap: 0.3rem;
+  }
+
+  .hero-actions .btn {
+    flex: 1 1 220px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: clamp(2rem, 6.4vw, 2.8rem);
+  }
+
+  .hero-copy {
+    font-size: 1rem;
+  }
+
+  .stat-card {
+    min-height: 100%;
+  }
+
+  .mockup-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1.05rem;
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+  }
+
+  .navbar-nav .nav-link {
+    display: block;
+    padding: 0.4rem 0;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .section-heading h2 {
+    font-size: 1.65rem;
+  }
+
+  .hero-card {
+    padding: 1rem;
+  }
+
+  .intro-strip {
+    font-size: 0.95rem;
+  }
+
+  .preview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mockup-shell {
+    padding: 0.8rem;
+  }
+
+  .panel {
+    padding: 0.75rem;
+  }
+
+  .feature-card,
+  .timeline-card,
+  .testimonial-card,
+  .faq-card {
+    padding: 1.2rem;
+  }
+
+  .cta-card {
+    padding: 1.4rem;
+  }
+
+  .footer {
+    padding-top: 24px;
+  }
+}
